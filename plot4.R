@@ -34,6 +34,6 @@ legend('topright', lty=1, col = c("black","red", "blue"), bty='n', cex=.75,legen
 plot(x,ProjData$Global_reactive_power,type="l",lwd=1,ylab="Global_reactive_power",xlab="datetime",col="black")
 
 
-dev.copy(png, file = "plot4c.png")
+dev.copy(png, file = "plot4.png")
 dev.off()
 
